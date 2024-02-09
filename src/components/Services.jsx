@@ -89,8 +89,8 @@ export default function Services() {
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Cómo contactarme?</h2>
               <p className="mt-6">
                 Si necesitas contactarme por un turno o consulta no dudes comunicarte via
-                <a href="https://wa.me/+5492984415648" target="_blank" rel="noopener noreferrer" className="custom-link"> WhatsApp</a> o
-                <a href="https://instagram.com/mnkinesiologia" target="_blank" rel="noopener noreferrer" className="custom-link"> Instagram</a>.
+                <a href="https://wa.me/+5492984415648" target="_blank" rel="noopener noreferrer" className="custom-link"><strong> WhatsApp</strong></a> o
+                <a href="https://instagram.com/mnkinesiologia" target="_blank" rel="noopener noreferrer" className="custom-link"><strong> Instagram</strong></a>.
                
               </p>
             </div>

@@ -35,15 +35,29 @@ export default function Navbar() {
  
 
   return (
-    <header className="relative z-10" style={{ backgroundColor: 'transparent' }}>
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 h-5" style={{ backgroundColor: 'transparent' }} aria-label="Global">
-        <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">MN KINISIOLOGIA</span>
-            <p className="text-2xl h-8 w-auto text-4xl mb-2 leading-9" style={{ color: "#7B2105" }}>MN</p>
-          </a>
-        </div>
-        <div className="flex lg:hidden">
+    <header className="relative z-10" style={{ backgroundColor: '#f9fafb' }}>
+       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 h-5" style={{ backgroundColor: 'transparent' }} aria-label="Global">
+    <div className="flex justify-start flex-1">
+      {/* Contenido a la izquierda de "MN", si lo hay */}
+    </div>
+    <div className="flex justify-center flex-1">
+      <a href="/" className="-m-1.5 p-1.5">
+        <span className="sr-only">MN KINISIOLOGIA</span>
+        <p className="text-2xl h-8 w-auto mb-2 leading-9" style={{ color: "#7B2105" }}>MN</p>
+      </a>
+    </div>
+    <div className="flex justify-end flex-1">
+      {/* Contenido a la derecha de "MN", si lo hay. Si no hay, este contenedor ayuda a centrar el logo de "MN" */}
+    </div>
+       {/* resto codigo 1 */}
+      </nav>
+      {/* resto codigo 2 */}
+    </header>
+  )
+}
+{/* codigo 1 */}
+
+ {/*<div className="flex lg:hidden">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -52,8 +66,8 @@ export default function Navbar() {
             <span className="sr-only">Open main menu</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
-        </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-12 p-6">
+  </div>*/}
+        {/*<Popover.Group className="hidden lg:flex lg:gap-x-12 p-6">
 
           <a href="/" className="text-sm  leading-6" style={{ color: "#7B2105" }}>
             Inicio
@@ -62,11 +76,11 @@ export default function Navbar() {
             Servicios
           </a>
         </Popover.Group>
-
+*/}
 
 
           
-          <div className="user-menu relative" id="user-menu">
+          {/*<div className="user-menu relative" id="user-menu">
         
           <Transition show={showUserMenu} as={Fragment}>
             <Dialog as="div" className="relative z-10" onClose={() => setShowUserMenu(false)}>
@@ -98,9 +112,11 @@ export default function Navbar() {
               </div>
             </Dialog>
           </Transition>
-        </div>
-      </nav>
-      <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+</div>*/}
+
+{/* codigo 2 */}
+
+ {/*<Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
@@ -170,7 +186,4 @@ export default function Navbar() {
             </div>
           </div>
         </Dialog.Panel>
-      </Dialog>
-    </header>
-  )
-}
+</Dialog>*/}
