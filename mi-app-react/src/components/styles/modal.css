@@ -1,0 +1,21 @@
+/* Estilos para la barra de desplazamiento en Chrome, Edge y Safari */
+#modal::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+  
+#modal::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Color de fondo de la pista de desplazamiento */
+    border-radius: 20px; /* Hacer la pista media redondeada */
+}
+  
+#modal::-webkit-scrollbar-thumb {
+    background-color: #a0a0a09f; /* Color del thumb de la barra de desplazamiento */
+    border-radius: 20px; /* Hacer el thumb media redondeado */
+    border: 3px solid #f0f0f0; /* Borde entre el thumb y la pista */
+}
+
+/* Estilos para la barra de desplazamiento en Firefox */
+#modal {
+    scrollbar-width: thin; /* "auto" o "thin" hace la barra más delgada */
+    scrollbar-color: #a0a0a0 #f0f0f0; /* [thumb] [track] */
+}

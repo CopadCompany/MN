@@ -1,0 +1,10 @@
+.custom-link {
+    color: #7B2105; /* Reemplaza #tuColor con el código hexadecimal de tu color */
+    cursor: pointer;
+    text-decoration: none; /* Opcional: si deseas eliminar el subrayado del enlace */
+  }
+  
+  .custom-link:hover {
+    color: #9a4221; /* Reemplaza #colorHover con el código hexadecimal del color de hover */
+    text-decoration: underline; /* Opcional: si deseas subrayar el enlace al hacer hover */
+  }

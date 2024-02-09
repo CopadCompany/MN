@@ -1,0 +1,20 @@
+#btnContact {
+    
+    color: #7B2105;
+    padding: 4px 16px;
+    border-radius: 0.25rem; /* 4px */
+    outline: none;
+    border: none;
+}
+
+#btnContact:hover {
+    color: #9a4221; /* Color de fondo en hover, un tono más claro */
+  }
+
+
+
+
+  .svg-icon-red img {
+    filter: invert(18%) sepia(99%) saturate(700%) hue-rotate(6deg) brightness(90%) contrast(119%);
+  }
+  
