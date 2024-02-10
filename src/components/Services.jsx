@@ -55,7 +55,10 @@ export default function Services() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Nuestro enfoque integral incluye tecnicas de evaluación y tratamiento para ayudar a los pacientes a recuperar su calidad de vida. Adicionalmente, ofrecemos terapia manual integral, que consiste en tecnicas manuales especificas para mejorar la movilidad, reducir el dolor y promover la recuperación física. Esta modalidad terapeutica se complementa con las demas areas de especialización y proporciona un enfoque holístico para el bienestar de los pacientes.
+                Nuestro enfoque integral incluye técnicas de evaluación y tratamiento para ayudar a los pacientes
+                 a recuperar su calidad de vida. Adicionalmente, ofrecemos terapia manual integral, que consiste
+                  en técnicas manuales específicas para mejorar la movilidad, reducir el dolor y promover la 
+                  recuperación física. Esta modalidad terapéutica se complementa con las demas áreas de especialización y proporciona un enfoque holístico para el bienestar de los pacientes.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -63,28 +66,30 @@ export default function Services() {
                   <span>
                     <strong className="font-semibold text-gray-900">Terapia manual personalizada. </strong> 
                     Creemos firmemente en la importancia de adaptar los tratamientos a las necesidades individuales 
-                    de cada persona por lo que diseñamos terapias manuales especificas que se ajustan a las condiciones y objetivos de cada paciente.
+                    de cada persona por lo que diseñamos terapias manuales específicas que se ajustan a las condiciones
+                     y objetivos de cada paciente.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <BoltIcon className="mt-1 h-5 w-5 flex-none text-red-700" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Acompañamiento a deportistas de alto rendimiento.</strong>
-                    Ofrecemos un acompañamiento integral para deportistas de alto rendimiento que buscan maximizar su rendimiento y prevenir lesiones.
+                    Ofrecemos un acompañamiento integral para deportistas de alto rendimiento que buscan maximizar su 
+                    rendimiento y prevenir lesiones.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <HomeModernIcon className="mt-1 h-5 w-5 flex-none text-red-700" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Servicio a domicilio. </strong>
-                    Ya sea que necesites rehabilitacion despues de una cirugia, tratamiento por lesion deportiva o 
+                    Ya sea que necesites rehabilitación después de una cirugía, tratamiento por lesión deportiva o 
                     simplemente desees mejorar tu bienestar general,
-                     estoy disponible para brindarte atencion de calidad en la comodidad de tu hogar.
+                     estoy disponible para brindarte atención de calidad en la comodidad de tu hogar.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                Si estas buscando un kinesiologo con experiencia y dedicación, <br /> ¡No dudes en ponerte en contacto conmigo! Estoy aca para ayudarte en tu camino hacia la recuperación y el bienestar.
+                Si estas buscando un kinesiólogo con experiencia y dedicación, <br /> ¡No dudes en ponerte en contacto conmigo! Estoy acá para ayudarte en tu camino hacia la recuperación y el bienestar.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Cómo contactarme?</h2>
               <p className="mt-6">

@@ -47,7 +47,7 @@ import Bannerbg from '../assets/banner.jpg';
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Lic. Nicolás Minio</h2>
             <p className="mt-6 text-lg leading-8 text-gray-200">
-            Kinesiologo comprometido con la salud y el bienestar, ofrezco rehabilitación para adultos mayores, deportistas y pacientes con problemas vestibulares.
+            Kinesiólogo comprometido con la salud y el bienestar, ofrezco rehabilitación para adultos mayores, deportistas y pacientes con problemas vestibulares.
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

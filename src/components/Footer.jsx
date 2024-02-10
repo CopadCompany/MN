@@ -10,22 +10,6 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100">
       <div className="p-8 text-center">
-        {/*<div className="mb-4">
-          <ul className="list-none mb-0">
-            <li className="inline-block mx-2 my-1">
-              <a href="/" className="text-gray-500 hover:text-gray-900">Inicio</a>
-            </li>
-            <li className="inline-block mx-2 my-1">
-              <a href="/banner" className="text-gray-500 hover:text-gray-900">Sobre Mi</a>
-            </li>
-            <li className="inline-block mx-2 my-1">
-              <a href="/services" className="text-gray-500 hover:text-gray-900">Servicios</a>
-            </li>
-            <li className="inline-block mx-2 my-1">
-              <a href="/contact" className="text-gray-500 hover:text-gray-900">Contactame</a>
-            </li>
-          </ul>
-  </div>*/}
         
         <div className="flex justify-center space-x-4 mb-4">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -40,7 +24,7 @@ const Footer = () => {
         </div>
 
         <div className="text-gray-700 p-4 mt-5">
-          © 2024 MN Kinesiologia. Todos los derechos reservados.
+          © 2024 MN Kinesiología. Todos los derechos reservados.
         </div>
       </div>
 
